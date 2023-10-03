@@ -2,12 +2,12 @@ export default function Navbar ()
 {
     return(
     <>
-    <header>
-    <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="https://flowbite.com" className="flex items-center">
+    <header className="">
+    <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-slate-900 to-black h-20">
+        <div className="flex flex-wrap justify-center items-center mx-auto max-w-screen-xl gap-1">
+            <a href="https://campuslands.com/#app" className="flex items-center">
                 <img src="https://yt3.googleusercontent.com/roHdcn8abJjBTaBv_liy3fUnC7P7INlMaZPZL4keRM7PEd91Ub3Ic-BEh2idHk63ezA1mEs11Q=s900-c-k-c0x00ffffff-no-rj" className="mr-3 h-6 sm:h-9" alt="Campus Logo" />
-                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Campus Inventory</span>
+                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Campuslands</span>
             </a>
             <div className="flex items-center lg:order-2">
                 <a href="#" className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
