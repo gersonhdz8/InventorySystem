@@ -1,13 +1,15 @@
-import Navbar from "./components/Navbar.jsx"
-import Content from "./components/Content.jsx"
-function App() {  
+// App.jsx
 
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './Routes.jsx';
+
+
+export default function App() {
   return (
-    <>      
-      <Navbar/>
-      <Content/>
-    </>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
 
-export default App
+

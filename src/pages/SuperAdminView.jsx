@@ -1,7 +1,6 @@
 export default function SuperAdminView()
 {
-    return(<>
-    
+    return(<>   
     
     
     </>)
